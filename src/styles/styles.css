@@ -1,0 +1,58 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .button {
+    position: relative;
+    vertical-align: top;
+    padding: 0.7em 2em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px #00000040;
+    background: #23a9f7;
+    border: 0;
+    border-bottom: 2px solid #1a7cb4;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #1a7cb4;
+    box-shadow: inset 0 -2px #1a7cb4;
+    outline: none;
+  }
+  .button:active {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .input {
+    width: 50%;
+    font-size: 1.8em;
+    margin: 0 0.4em;
+    text-align: center;
+    padding: 0.3em 0.3em;
+    border-radius: 0.2em;
+    outline: none;
+    border: 1px solid #bebebe;
+    margin-bottom: 0.5em;
+  }
+  
+  .panel {
+    padding: 1em 2em;
+    width: 50%;
+    margin: 1em auto;
+    border-radius: 0.5em;
+  }
+  
+  .success {
+    background: #78cafa;
+    color: rgb(13, 41, 65);
+    border: 1px solid #5c94dd;
+  }
+  
+  .error {
+    background: #fa7878;
+    color: #410d0d;
+    border: 1px solid #dd5c5c;
+  }
